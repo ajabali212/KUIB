@@ -1,0 +1,121 @@
+/*
+* Shortcode Theme Color: current-theme.scss
+* -----------------------------------------------
+*/
+
+
+/* Feature Box */
+.tm-sc-features-box {
+  &.features-box-current-theme-style1 {
+    .feature-box {
+      .content {
+        background-color: rgba(var(--theme-color2-rgb), .75);
+        a {
+          color: var(--theme-color1);
+        }
+      }
+
+      &:hover {
+        .content {
+          background-color: rgba(var(--theme-color1-rgb), .9);
+          a {
+            color: var(--theme-color2);
+          }
+        }
+      }
+      &.active {
+        .content {
+          background-color: rgba(var(--theme-color1-rgb), .85);
+          a {
+            color: var(--theme-color2);
+          }
+        }
+        &:hover {
+          .content {
+            background-color: rgba(var(--theme-color1-rgb), .92);
+          }
+        }
+      }
+    }
+  }
+}
+
+/* About */
+.about-image-layer1 {
+  &:after {
+    border-color: var(--theme-color1);
+  }
+}
+
+/* Service */
+.service-item-current-style1 {
+  &:hover {
+    &:after {
+      background-color: var(--theme-color1);
+      height: 100%;
+      top: 0;
+    }
+  }
+}
+
+/* Causes */
+.causes-item-current-style1 {
+  .causes-item {
+    .causes-thumb {
+      .btn-donate-now {
+        background-color: var(--theme-color1);
+      }
+    }
+    .causes-details {
+      .donation-goal {
+        p {
+          span {
+            color: var(--theme-color1);
+          }
+        }
+      }
+    }
+    .progress-item {
+      .tm-sc-progress-bar {
+        &.progress-bar-floating-percent {
+          .progress-title-holder {
+            .percent {
+              background-color: var(--theme-color2);
+              &:after {
+                border-color: var(--theme-color2) transparent transparent transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Gallery */
+.tm-sc-gallery {
+  &.gallery-current-theme-style1 {
+    .tm-gallery {
+      .tm-gallery-inner {
+        .tm-gallery-content-wrapper {
+          .tm-gallery-content {
+            &:after {
+              background-color: rgba(var(--theme-color2-rgb), .9);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.gallery-thumb:after {
+  background: rgba(var(--theme-color2-rgb), 0.8);
+}
+
+/* Blog */
+.tm-sc-blog {
+  &.blog-style1-current-theme {
+    article {
+    }
+  }
+}

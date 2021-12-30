@@ -1,0 +1,117 @@
+/*
+ * Shortcode: footer.scss
+ * -----------------------------------------------
+*/
+footer#footer {
+	background-color: #023257;
+	color: #bdbdc2;	
+	.footer-widget-area {
+		.widget {
+			.widget-title {
+				margin-bottom: 35px;
+				margin-top: 17px;
+			}
+		}
+	}
+	.widget {
+		.widget-logo {
+			max-width: 123px;
+			margin-bottom: 34px;
+		}
+		&.contact-info {
+			.description {
+				border-bottom: 1px solid #45454a;
+				padding-bottom: 32px;
+			}
+		}
+		&.widget_nav_menu {
+			.menu-footer-page-list {
+				ul {
+					li {
+						padding-left: 0;
+						&:before {
+							display: none;
+						}
+						a {
+							color: #bebec2;
+							font-weight: 400;
+							&:hover {
+								color: $white;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.widget-newsletter {
+			.newsletter-form {
+				margin: 0;
+				padding: 0;
+				input {
+					background-color: transparent;
+					border: 2px solid $white;
+					border-radius: 15px;
+					color: $white;
+					height: 70px;
+				}
+				.newsletter-btn	{
+					border-radius: 50%;
+					height: 70px;
+					padding: 0;
+					top: 0;
+					right: 0;
+					width: 70px;
+				}
+			}
+		}
+	}
+}
+.widget .post .post-thumb {
+	margin-right: 10px;
+}
+.widget .post .post-thumb img {
+	border-radius: 50%;
+}
+.widget .post .post-right .entry-date {
+	color: #b4c4d0;
+}
+footer#footer .widget .post .post-right .post-date {
+	display: block;
+	margin-bottom: 10px;
+}
+footer#footer .widget .post .post-right .post-title {
+	line-height: 1.8;
+}
+footer#footer .widget .post .post-right .post-title a {
+	color: $white;
+	font-weight: 500;
+}
+footer#footer a:not(.social-link):not(.icon) {
+	color: #bebec2;
+	font-weight: 500;
+	&:hover {
+		color: #efc94c;
+	}
+}
+
+footer#footer {
+	.footer-bottom-style1 {
+		.styled-icons {
+			a:not(.social-link):not(.icon) {
+				color: #bebec2;
+				border-radius: 50%;
+				&:hover {
+					background-color: #348f7a;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+
+.footer-bottom-style1 {
+	padding: 43px 0 32px;
+	.styled-icons {}
+}
+
+
