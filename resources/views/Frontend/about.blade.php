@@ -6,7 +6,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">About Us</h2>
+              <h2 class="title">About Us2</h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>
