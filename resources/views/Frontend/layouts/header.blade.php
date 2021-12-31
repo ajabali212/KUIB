@@ -95,7 +95,7 @@
                 </a>
               </div>
               <div class="col-sm-auto ms-auto pr-0 align-self-center">
-                <nav id="top-primary-nav" class="menuzord theme-color1" data-effect="fade" data-animation="none" data-align="right">
+                <nav id="top-primary-nav" class="menuzord theme-color4" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
                     <li class="active"><a href="{{route('home.index')}}">Home</a></li>
                     <li class=""><a href="{{route('about-us.index')}}">About Us</a></li>

@@ -16704,7 +16704,7 @@ section .container-fluid {
   opacity: 1; }
 
 .featured-causes-item-current-style1 {
-  border: 10px solid var(--theme-color2);
+  border: 10px solid #26355E;
   position: relative; }
   @media (max-width: 575.98px) {
     .featured-causes-item-current-style1 {
@@ -17512,3 +17512,7 @@ $grid-breakpoints: (
     font-size: 2.2rem; }
   h3 {
     font-size: 2.0rem; } }
+
+.font-color-red{
+  color: red;
+}

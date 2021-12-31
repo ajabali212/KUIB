@@ -4,39 +4,25 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="widget contact-info pr-30 pr-lg--0">
-              <div class="widget-logo">
-                <a href="index-mp-layout1.html"><img class="logo-default logo-1x" src="{{asset('Frontend/images/logo-wide-white.png')}}" alt="Logo"></a>
-              </div>
-              <p class="description">Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.</p>
-              <div class="footer-contact-info">
-                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-1" href="#/"><i class="text-theme-colored1 mr-10 fas fa-phone-alt"></i> 666 888 0000</a>
-                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-1" href="#/"><i class="text-theme-colored1 mr-10 fas fa-envelope"></i> needhelp@ecoife.com</a>
-                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-0" href="#/"><i class="text-theme-colored1 mr-10 fas fa-map-marker-alt"></i> 20 Broklyn Street, USA</a>
-              </div>
+              <h4 class="widget-title mb-30 pb-1">KUIMB</h4>
+              <p class="description">The Koperasi Usahawan India Malaysia Berhad (KUIMB) is an organisation established by like-minded individuals with the objective of uplifting the socio-economic status of the Malaysian Entrepreneur  community. </p>
+              
             </div>
           </div>
           <div class="col-md-6 col-lg-4 col-xl-3">
             <div class="widget pl-30 pl-lg-10 pl-sm--0">
-              <h4 class="widget-title mb-30 pb-1">News</h4>
+              <h4 class="widget-title mb-30 pb-1">Contact Us</h4>
               <div class="latest-posts pt-2">
                 <article class="post clearfix pb-0 mb-50">
-                  <a class="post-thumb" href="#"><img src="http://placehold.it/71x71" alt="Image"></a>
+                  <!-- <a class="post-thumb" href="#"><img src="http://placehold.it/71x71" alt="Image"></a> -->
                   <div class="post-right">
-                    <span class="post-date">
-                      <span class="entry-date text-theme-colored2">Jan 22, 2021</span>
-                    </span>
-                    <p class="post-title font-weight-500 mt-0"><a href="news-details.html">A Clean Water Gives More Good Taste</a></p>
+                    <div class="footer-contact-info">
+                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-1" href="#/"><i class="text-theme-colored1 mr-10 fas fa-phone-alt"></i>03- 7968 8686</a>
+                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-1" href="#/"><i class="text-theme-colored1 mr-10 fas fa-envelope"></i>secretary@kuimb.com</a>
+                <a class="text-white text-hover-theme-colored1 d-block font-weight-400 mb-0" href="#/"><i class="text-theme-colored1 mr-10 fas fa-map-marker-alt"></i> PJ Tower, Selangor</a>
+              </div>
                   </div>
-                </article>
-                <article class="post clearfix pb-0 mb-0">
-                  <a class="post-thumb" href="#"><img src="http://placehold.it/71x71" alt="Image"></a>
-                  <div class="post-right">
-                    <span class="post-date">
-                      <span class="entry-date text-theme-colored2">Jan 22, 2021</span>
-                    </span>
-                    <p class="post-title font-weight-500 mt-0"><a href="news-details.html">A Clean Water Gives More Good Taste</a></p>
-                  </div>
-                </article>
+                
               </div>
             </div>
           </div>
@@ -45,11 +31,11 @@
               <h4 class="widget-title" data-tm-margin-bottom="31">Explore</h4>
               <div class="menu-footer-page-list">
                 <ul id="footer-page-list" class="menu">
-                  <li><a href="page-campaign.html">Our Projects</a></li>
-                  <li><a href="page-about.html">About us</a></li>
-                  <li><a href="page-campaign.html">New Campaign</a></li>
-                  <li><a href="news-details.html">Upcoming Events</a></li>
-                  <li><a href="page-team.html">Volunteers</a></li>
+                  <li><a href="#">Our Projects</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">New Campaign</a></li>
+                  <li><a href="#">Upcoming Events</a></li>
+                  <li><a href="#">Volunteers</a></li>
                 </ul>
               </div>
             </div>

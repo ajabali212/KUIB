@@ -25,7 +25,10 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2">
-                     KUIMB
+                      <span style="color: #9B0000;">KOPERASI USAHAWAN</span>
+                      <br />
+                        <span class="text-theme-colored4 font-weight-700">KUIMB</span>
+                     
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-21"
@@ -37,7 +40,7 @@
                       data-frame_999="o:0;st:w;sR:8000;"
                       style="z-index:10;font-style:italic;"
                       class="font-current-theme1">
-                     KUIMB
+                     <!-- Welcome to -->
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-22"
@@ -75,9 +78,9 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2">
-                      KOPERASI USAHAWAN
+                      KOPERASI USAHAWAN 
                       <br />
-                        <span class="text-theme-colored2 font-weight-700">KUIMB</span>
+                        <span class="text-theme-colored4 font-weight-700">KUIMB</span>
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-13-layer-21"
@@ -88,8 +91,8 @@
                       data-frame_1="st:500;sp:1000;"
                       data-frame_999="o:0;st:w;sR:8000;"
                       style="z-index:10;font-style:italic;"
-                      class="font-current-theme1"
-                      >KUIMB
+                      class="font-current-theme1">
+                      <!-- KUIMB Second slide -->
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-13-layer-22"
@@ -126,9 +129,9 @@
                       data-frame_1="st:1000;sp:1000;sR:220;"
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
-                      class="font-current-theme2"
-                      >Make an Impact<br />
-                      & Give Back to <span class="text-theme-colored2 font-weight-700">KUIMB</span>
+                      class="font-current-theme2">
+                      Third Slide<br />
+                      Third Slide Text <span class="text-theme-colored4 font-weight-700">KUIMB</span>
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-15-layer-21"
@@ -139,8 +142,7 @@
                       data-frame_1="st:500;sp:1000;"
                       data-frame_999="o:0;st:w;sR:8000;"
                       style="z-index:10;font-style:italic;"
-                      class="font-current-theme1"
-                      >Welcome To Ecoife HTML Template
+                      class="font-current-theme1">
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-15-layer-22"
@@ -210,7 +212,7 @@
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
               <div class="title-wrapper mb-1">
                 <h2 class="title mb-0">Welcome To</h2>
-                <h2 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">KOPERASI USAHAWAN INDIA MALAYSIA BERHAD (KUIMB) </h2>
+                <h2 class="subtitle line-shape-bottom line-shape-center " style="color:  #003B73;">KOPERASI USAHAWAN INDIA MALAYSIA BERHAD (KUIMB) </h2>
                 
               </div>
             </div>
@@ -265,7 +267,7 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">Corporate Info</h6>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored4">Corporate Info</h6>
                 <h2 class="title mb-0">
                   <!-- Incorporated Name
                   Incorporated Date

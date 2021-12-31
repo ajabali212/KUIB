@@ -45,7 +45,7 @@
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">Mission</h5>
+                  <h5 class="icon-box-title mt-0 text-theme-colored4">Mission</h5>
                   <div class="content">
                     <a href="">
                       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes.

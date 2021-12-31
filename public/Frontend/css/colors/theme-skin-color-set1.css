@@ -1694,7 +1694,7 @@ blockquote:before {
   color: #348f7a; }
 
 blockquote.border-left-theme-colored {
-  border-left-color: #348f7a; }
+  border-left-color: #000C66; }
 
 blockquote.quote-icon-theme-colored:before {
   color: #348f7a; }
