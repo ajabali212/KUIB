@@ -6,7 +6,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title">About Us</h2>
+              <h2 class="title"><span class="text-theme-colored4">About Us</span></h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>
@@ -29,9 +29,9 @@
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">About KUIB</h5>
+                  <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">About KUIB</h5>
                   <div class="content">
-                    <a href="">
+                    <a href="" class="text-theme-colored4">
                       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </a>
                   </div>
@@ -45,9 +45,9 @@
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0 text-theme-colored4">Mission</h5>
+                  <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">Mission</h5>
                   <div class="content">
-                    <a href="">
+                    <a href="" class="text-theme-colored4">
                       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes.
                     </a>
                   </div>
@@ -60,9 +60,9 @@
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0">Goals</h5>
+                  <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">Goals</h5>
                   <div class="content">
-                    <a href="">
+                    <a href="" class="text-theme-colored4">
                       It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes.
                     </a>
                   </div>
