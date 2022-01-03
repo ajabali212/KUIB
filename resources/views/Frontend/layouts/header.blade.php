@@ -99,6 +99,7 @@
                   <ul id="main-nav" class="menuzord-menu">
                     <li class="active"><a href="{{route('home.index')}}">Home</a></li>
                     <li class=""><a href="{{route('about-us.index')}}">About Us</a></li>
+                    <li class=""><a href="{{route('gallery.index')}}">Gallery</a></li>
                     <li class=""><a href="{{route('membership.index')}}">Membership</a></li>
                     <li class=""><a href="{{route('contact-us.index')}}">Contact Us</a></li>                    
                     
