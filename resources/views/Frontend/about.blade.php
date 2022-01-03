@@ -21,7 +21,7 @@
       </div>
     </section>
 
-<!-- Divider: Contact -->
+<!-- Section About KUIB -->
     <section class="divider">
       <div class="container">
         <div class="row">
@@ -32,7 +32,7 @@
                   <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">About KUIB</h5>
                   <div class="content">
                     <a href="" class="text-theme-colored4">
-                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                     The Koperasi Usahawan India Malaysia Berhad (KUIMB) is an organisation established by like-minded individuals with the objective of uplifting the socio-economic status of the Malaysian Entrepreneur  community. Cooperatives are registered under the Ministry of Domestic Trade, Cooperatives and Consumerism.
                     </a>
                   </div>
                 </div>
@@ -41,7 +41,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6">
+          <!-- <div class="col-lg-6">
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
@@ -55,8 +55,8 @@
                 <div class="clearfix"></div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6">
+          </div> -->
+          <!-- <div class="col-lg-6">
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
@@ -70,9 +70,140 @@
                 <div class="clearfix"></div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
     </section>
+    <!-- Section About KUIB end -->
+
+     <!-- Section: Mission Start -->
+    <section>
+      <div class="container pt-0">
+        <div class="tm-sc-section-title section-title text-center mb-40">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
+              <div class="title-wrapper mb-1">
+               
+                <h2 class="title mb-0 text-theme-colored4">Our Mission</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="project-tab-style1">
+                <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="images/icons/tab1.png" alt="Image"> <br>Eco System</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="images/icons/tab2.png" alt="Image"> <br>Recycling</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="images/icons/tab3.png" alt="Image"> <br>Water Refine</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="images/icons/tab4.png" alt="Image"> <br>Save Animals</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="images/icons/tab5.png" alt="Image"> <br>Solar Energy</a>
+                  </li>
+                </ul> -->
+                <div class="tab-content p-0" id="myTabContent">
+                  <div class="tab-pane fade" id="eco-system" role="tabpanel" aria-labelledby="eco-system-tab">
+                    
+                  </div>
+                  <div class="tab-pane fade show active" id="recycling" role="tabpanel" aria-labelledby="recycling-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x585" alt="Image">
+                          
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40"> KUIMB OBJECTIVES</h3>
+                          
+                          <ul class="unordered-list-current-style1 mb-50">
+                            <li>
+                              <img class="mr-20" src="{{asset('Frontend/images/KUIMB_Objectives/1.png')}}" alt="Image"> 
+                              <span class="progress-content bg-theme-colored4 pl-10"  data-tm-border-radius="10">
+                                To create a network of Engineering Professionals & Entrepreneurs
+                              </span>
+                            </li>
+                            <li>
+                              <img class="mr-20" src="{{asset('Frontend/images/KUIMB_Objectives/2.png')}}" alt="Image"> 
+                              <span class="progress-content bg-theme-colored4 pl-10"  data-tm-border-radius="10">
+                                To source sufficient captial to venture into bussiness 
+                              </span>
+                            </li>
+                            <li>
+                              <img class="mr-20" src="{{asset('Frontend/images/KUIMB_Objectives/3.png')}}" alt="Image"> 
+                              <span class="progress-content bg-theme-colored4 pl-10"  data-tm-border-radius="10">
+                                To have a portfolio of strategic investments for medium to long term
+                              </span>
+                            </li>
+                            <li>
+                              <img class="mr-20" src="{{asset('Frontend/images/KUIMB_Objectives/4.png')}}" alt="Image"> 
+                              <span class="progress-content bg-theme-colored4 pl-10"  data-tm-border-radius="10">
+                                To assist members in loan applications and business counseling
+                              </span>
+                            </li>
+                            <li>
+                              <img class="mr-20" src="{{asset('Frontend/images/KUIMB_Objectives/5.png')}}" alt="Image"> 
+                              <span class="progress-content bg-theme-colored4 pl-10 "  data-tm-border-radius="10">
+                                To create business opportunities for members
+                              </span>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- Section: Mission End -->
+
+        <!-- Section: Divider -->
+    <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x611">
+      <div class="section-content">
+        <div class="container pt-0">
+          <div class="row text-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-8 m-auto">
+              <div class="bg-theme-colored4 icon-current-style1 d-inline-block mb-0">
+                <h3 style="color:#fff">KUIMB Goals</h3>
+              </div>
+              <h3>Short Term Goals</h3>
+              <p>To invest in property</p>
+              <h3>Medium Term Goals</h3>
+              <p>To invest in property</p>
+              <h3>Long Term Goals</h3>
+              <ul class="menu-footer-page-list">
+                <li>
+                  To hold a portfolio in fixed income yeilding investment & properties
+                </li>
+                <li>
+                  To participate in business ventures with members
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Divider -->
+
 @endsection
