@@ -176,34 +176,140 @@
     </section>
     <!-- Section: Mission End -->
 
-        <!-- Section: Divider -->
-    <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x611">
-      <div class="section-content">
-        <div class="container pt-0">
-          <div class="row text-center">
-            <div class="col-lg-11 col-xl-9 col-xxl-8 m-auto">
-              <div class="bg-theme-colored4 icon-current-style1 d-inline-block mb-0">
-                <h3 style="color:#fff">KUIMB Goals</h3>
+ <!-- Section: Goals Start -->
+    <section data-tm-bg-color="#f5f5f4" class="mb-120" >
+      <div class="container-fluid pt-0  pb-0">
+        <div class="tm-sc-section-title section-title text-center mb-40">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
+              <div class="title-wrapper mb-1">
+               
+                <h2 class="title mb-80 text-theme-colored4">KUIMB Goals</h2>
               </div>
-              <h3>Short Term Goals</h3>
-              <p>To invest in property</p>
-              <h3>Medium Term Goals</h3>
-              <p>To invest in property</p>
-              <h3>Long Term Goals</h3>
-              <ul class="menu-footer-page-list">
-                <li>
-                  To hold a portfolio in fixed income yeilding investment & properties
-                </li>
-                <li>
-                  To participate in business ventures with members
-                </li>
-              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="section-content pb-50">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="tm-sc-project-items project-items-current-theme-style1 text-center pb-md-150">
+                <div class="project-item">                    
+                  <div class="thumb">
+                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                  </div>
+                  <div class="content">
+                    <h5 class="title"><a href="#">Short Term Goals</a></h5>
+                    <ul >
+                      <li> To invest in property </li>
+                      <li> Invest in Government bond etc </li>
+                      <li> Fixed income yeilding investments </li>
+                      <li> Low Risk Investments </li>
+                    </ul>
+                    <!-- <a class="btn-link" href="page-campaign-details.html">
+                      <i class="fas fa-chevron-up"></i>
+                      <img class="shape-circle" src="frontend/images/shape/project-01.png" alt="Image">
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="tm-sc-project-items project-items-current-theme-style1 text-center pb-md-150">
+                <div class="project-item">                    
+                  <div class="thumb">
+                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                  </div>
+                  <div class="content">
+                    <h5 class="title"><a href="">Medium Term Goals</a></h5>
+                    <ul >
+                      <li> To invest in property </li>
+                      <li> Study business proposals by members & aquite stake </li>
+                      <li> Provide members with funding opportunites </li>
+                      <li> Medium risk investments </li>
+                    </ul>
+                    <!-- <a class="btn-link" href="page-campaign-details.html">
+                      <i class="fas fa-chevron-up"></i>
+                      <img class="shape-circle" src="frontend/images/shape/project-01.png" alt="Image">
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="tm-sc-project-items project-items-current-theme-style1 text-center">
+                <div class="project-item">                    
+                  <div class="thumb">
+                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                  </div>
+                  <div class="content">
+                    <h5 class="title"><a href="#">Long Term Goals</a></h5>
+                    <ul >
+                      <li> To hold a portfolio in fixed income yeilding investment & properties </li>
+                      <li> To participate in business ventures with members </li>
+                    </ul>
+                    <!-- <a class="btn-link" href="page-campaign-details.html">
+                      <i class="fas fa-chevron-up"></i>
+                      <img class="shape-circle" src="frontend/images/shape/project-01.png" alt="Image">
+                    </a> -->
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+  <!-- Section Goals End -->
 
     <!-- Section: Divider -->
+    <section class="pb-200" data-tm-bg-color="#f5f5f4">
+      <div class="section-content">
+        <div class="container pb-0">
+          <div class="row">
+            <div class="col-lg-5 col-xl-6 pr-130 pr-lg-30 pr-md-10 pl-md-10 mb-md-50 text-center text-lg-start">
+              <img src="{{asset('Frontend/images/KUIMB_Objectives/strategy.png')}}" alt="Image">
+             <!--  <h2 class="text-white font-weight-400 mt-0 mb-40 mb-md-30 pb-1">Let’s Together Protect and Enhance Environment for our Future Generation</h2> -->
+              
+            </div>
+            <div class="col-lg-7 col-xl-6">
+              <div class="donate-form-current-style1 bg-white position-relative z-index-1" data-tm-margin-bottom="-115">
+                <div class="bg-theme-colored3 p-20 text-uppercase letter-spacing-1 font-weight-500 text-theme-colored2  text-center">KUIMB Plan</div>
+                <div class="pt-40 pr-80 pr-xs-15 pb-10 pl-80 pl-xs-15">
+                  <p class="font-size-18 text-center"></p>
+                  
+                    <div class="mb-3 mt-30 mb-20">
+                      <label><strong>Property Investments</strong></label>
+                      
+                    </div>
+                    <div class="mb-30">
+                      <label><strong>IPO Subscriptions</strong></label>
+                      <br>
+                    </div>
+                    <div class="mb-30">
+                      <label><strong>Training & Develpment</strong></label>
+                      <br>
+                    </div>
+
+                    <div class="mb-30">
+                      <label><strong>Venture Capital</strong></label>
+                      <br>
+                    </div>
+
+                    <div class="mb-30">
+                      <label><strong>AR-Rahnu</strong></label>
+                      <br>
+                    </div>
+                    <div class="mb-30">
+                      <label><strong>Securing Land From State Goverments</strong></label>
+                      <br>
+                    </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 @endsection
