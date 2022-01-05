@@ -41,6 +41,169 @@
             </div>
           </div>
 
+          <!-- Section: Divider -->
+    <section>
+      <div class="container">
+        <div class="tm-sc-section-title section-title text-center mb-40">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
+              <div class="title-wrapper mb-1">
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">KUIBM</h6>
+                <h2 class="title mb-0">Our Mission is to Save the World</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="project-tab-style1">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="eco-system-tab" data-bs-toggle="tab" href="#eco-system" role="tab" aria-controls="eco-system" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Overview</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="recycling-tab" data-bs-toggle="tab" href="#recycling" role="tab" aria-controls="recycling" aria-selected="true"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Company Info</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="waterrefine-tab" data-bs-toggle="tab" href="#waterrefine" role="tab" aria-controls="waterrefine" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Board of Director</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="saveanimals-tab" data-bs-toggle="tab" href="#saveanimals" role="tab" aria-controls="saveanimals" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Gallery</a>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="solarenergy-tab" data-bs-toggle="tab" href="#solarenergy" role="tab" aria-controls="solarenergy" aria-selected="false"><img src="{{asset('Frontend/images/icons/tab5.png')}}" alt="Image"> <br>Membership</a>
+                  </li>
+                </ul>
+                <div class="tab-content p-0" id="myTabContent">
+                  <div class="tab-pane fade" id="eco-system" role="tabpanel" aria-labelledby="eco-system-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
+                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>123 123 0000</span></div>
+                          <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">Overview</h3>
+                          <p class="font-size-18 mb-40" style="text-align: justify;">The Koperasi Usahawan India Malaysia Berhad (KUIMB) also known as Malaysian Indian Entrepreneurs Cooperative (MIEC) is an organisation established by like-minded individuals with the objective of uplifting the socio-economic status of the Malaysian Indian community. Cooperatives are registered under the Ministry of Domestic Trade, Cooperatives and Consumerism.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade show active" id="recycling" role="tabpanel" aria-labelledby="recycling-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
+                          <div class="font-size-18 text-white pb-25 pl-lg-20"> <span></span></div>
+                          <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">Company Info</h3>
+                          <p class="font-size-18 mb-40"></p>
+                          <ul class="unordered-list-current-style1 mb-50">
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> 
+                            Incorporated Name
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> 
+                            Incorporated Date
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> 
+                              Administration Address (Head Office)
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Registered No
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Bankers
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Legal Advisors
+                            </li>
+
+                            <li><img class="mr-20" src="{{asset('Frontend/images/icons/1.png')}}" alt="Image"> Auditors
+                            </li>
+
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="waterrefine" role="tabpanel" aria-labelledby="waterrefine-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
+                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>666 888 0000</span></div>
+                          <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">Board Of Director</h3>
+                          <p class="font-size-18 mb-40" style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="saveanimals" role="tabpanel" aria-labelledby="saveanimals-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
+                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>666 888 0000</span></div>
+                          <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">Gallery</h3>
+                          <p class="font-size-18 mb-40">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="solarenergy" role="tabpanel" aria-labelledby="solarenergy-tab">
+                    <div class="row">
+                      <div class="col-lg-12 col-xl-6">
+                        <div class="layer-bg-wrapper-current-style1">
+                          <img class="mb-25 w-100" src="http://placehold.it/585x486" alt="Image">
+                          <div class="font-size-18 text-white pb-25 pl-lg-20">For any inquiries call the hotline: <span>666 888 0000</span></div>
+                          <div class="img-bg-layer1 bg-img-cover" data-tm-bg-img="http://placehold.it/625x571"></div>
+                        </div>
+                      </div>
+                      <div class="col-lg-12 col-xl-5">
+                        <div class="tab-content-inner pt-70 pt-lg-40 pr-md-30 pr-xs-15 pl-50 pl-lg-20 pr-lg-20 pl-md-30 pl-xs-15">
+                          <h3 class="font-size-40 font-weight-500 mt-0 mb-40">Membership</h3>
+                          <p class="font-size-18 mb-40">There are many variations of passages of available but the majority have suffered alteration in some form, by injected humou.</p>
+                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tm-floating-objects">
+        <span class="floating-object-1 tm-animation-spin d-none-1799" data-tm-bg-img="http://placehold.it/161x166" data-tm-width="161" data-tm-height="166" data-tm-top="auto" data-tm-bottom="185" data-tm-left="auto" data-tm-right="215" data-tm-opacity="1"></span>        
+        <span class="floating-object-1 tm-animation-floating z-index--1 d-none d-xl-block" data-tm-bg-img="images/shape/about-01.png" data-tm-width="76" data-tm-height="123" data-tm-top="140" data-tm-bottom="auto" data-tm-left="220" data-tm-right="auto" data-tm-opacity="1"></span>
+        <span class="floating-object-2 tm-animation-random d-none-1799" data-tm-bg-img="images/shape/causes-02.png" data-tm-width="95" data-tm-height="90" data-tm-top="450" data-tm-bottom="auto" data-tm-left="auto" data-tm-right="110" data-tm-opacity="1"></span>
+      </div>
+    </section>
+
           <!-- <div class="col-lg-6">
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
