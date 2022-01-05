@@ -1,17 +1,17 @@
 @extends('frontend.layouts.main')
 @section('main-container')
 
-    <section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1894x826">
+<section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center pt-200 " data-tm-bg-img="{{asset('Frontend/images/events.jpg')}}" style="background-repeat: no-repeat; background-color: #fff;">
       <div class="container pt-200 pb-200">
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title"><span class="text-theme-colored4">Gallery</span></h2>
+              <h2 class="title"> <span class="text-theme-colored4"> &nbsp;&nbsp;&nbsp; </span></h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
-                  <span><a href="#" rel="home">Home</a></span>
-                  <span><i class="fa fa-angle-right"></i></span>
-                  <span><a href="#">Gallery</a></span>
+                  <span> <a href="#" rel="home"> &nbsp; </a></span>
+                  
+                  <span> <a href="#"> &nbsp; </a> </span>
                   
                 </div>
               </nav>

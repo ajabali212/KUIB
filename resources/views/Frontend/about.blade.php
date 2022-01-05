@@ -1,17 +1,19 @@
 @extends('frontend.layouts.main')
 @section('main-container')
 
-    <section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1894x826">
+
+
+    <section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center pt-200 " data-tm-bg-img="{{asset('Frontend/images/aboutus.jpg')}}" style="background-repeat: no-repeat; background-color: #fff;">
       <div class="container pt-200 pb-200">
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title"><span class="text-theme-colored4">About Us</span></h2>
+              <h2 class="title"> <span class="text-theme-colored4"> &nbsp;&nbsp;&nbsp; </span></h2>
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
                 <div class="breadcrumbs">
-                  <span><a href="#" rel="home">Home</a></span>
-                  <span><i class="fa fa-angle-right"></i></span>
-                  <span><a href="#">About Us</a></span>
+                  <span> <a href="#" rel="home"> &nbsp; </a></span>
+                  
+                  <span> <a href="#"> &nbsp; </a> </span>
                   
                 </div>
               </nav>
@@ -29,7 +31,7 @@
             <div class="icon-box icon-left iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate bg-white-f1 p-30 mb-30">
               <div class="icon-box-wrapper">
                 <div class="icon-text">
-                  <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">About KUIB</h5>
+                  <h5 class="icon-box-title mt-0 " style="color:#8e0a0a;">About KUIMB</h5>
                   <div class="content">
                     <a href="" class="text-theme-colored4">
                      The Koperasi Usahawan India Malaysia Berhad (KUIMB) is an organisation established by like-minded individuals with the objective of uplifting the socio-economic status of the Malaysian Entrepreneur  community. Cooperatives are registered under the Ministry of Domestic Trade, Cooperatives and Consumerism.
@@ -48,7 +50,7 @@
           <div class="row justify-content-md-center">
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
               <div class="title-wrapper mb-1">
-                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored1">KUIBM</h6>
+                <h6 class="subtitle line-shape-bottom line-shape-center text-theme-colored4">KUIMB</h6>
                 <h2 class="title mb-0">Our Mission is to Save the World</h2>
               </div>
             </div>
@@ -282,7 +284,7 @@
                     <div class="row">
                       <div class="col-lg-12 col-xl-6">
                         <div class="layer-bg-wrapper-current-style1">
-                          <img class="mb-25 w-100" src="http://placehold.it/585x585" alt="Image">
+                          <img class="mb-25 w-100" src="{{asset('Frontend/images/objectives.jpg')}}" alt="Image">
                           
                         </div>
                       </div>
@@ -358,7 +360,7 @@
               <div class="tm-sc-project-items project-items-current-theme-style1 text-center pb-md-150">
                 <div class="project-item">                    
                   <div class="thumb">
-                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                    <img class="border-rounded" src="{{asset('Frontend/images/KUIMB_goals.png')}}" alt="Image">
                   </div>
                   <div class="content">
                     <h5 class="title"><a href="#">Short Term Goals</a></h5>
@@ -380,7 +382,7 @@
               <div class="tm-sc-project-items project-items-current-theme-style1 text-center pb-md-150">
                 <div class="project-item">                    
                   <div class="thumb">
-                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                    <img class="border-rounded" src="{{asset('Frontend/images/KUIMB_goals.png')}}" alt="Image">
                   </div>
                   <div class="content">
                     <h5 class="title"><a href="">Medium Term Goals</a></h5>
@@ -402,7 +404,7 @@
               <div class="tm-sc-project-items project-items-current-theme-style1 text-center">
                 <div class="project-item">                    
                   <div class="thumb">
-                    <img class="border-rounded" src="http://placehold.it/195x195" alt="Image">
+                    <img class="border-rounded" src="{{asset('Frontend/images/KUIMB_goals.png')}}" alt="Image">
                   </div>
                   <div class="content">
                     <h5 class="title"><a href="#">Long Term Goals</a></h5>
@@ -430,39 +432,39 @@
         <div class="container pb-0">
           <div class="row">
             <div class="col-lg-5 col-xl-6 pr-130 pr-lg-30 pr-md-10 pl-md-10 mb-md-50 text-center text-lg-start">
-              <img src="{{asset('Frontend/images/KUIMB_Objectives/strategy.png')}}" alt="Image">
+              <img src="{{asset('Frontend/images/strategic-plan.jpg')}}" alt="Image">
              <!--  <h2 class="text-white font-weight-400 mt-0 mb-40 mb-md-30 pb-1">Let’s Together Protect and Enhance Environment for our Future Generation</h2> -->
               
             </div>
             <div class="col-lg-7 col-xl-6">
-              <div class="donate-form-current-style1 bg-white position-relative z-index-1" data-tm-margin-bottom="-115">
+              <div class="donate-form-current-style1 bg-white position-relative z-index-1">
                 <div class="bg-theme-colored3 p-20 text-uppercase letter-spacing-1 font-weight-500 text-theme-colored2  text-center">KUIMB Plan</div>
-                <div class="pt-40 pr-80 pr-xs-15 pb-10 pl-80 pl-xs-15">
+                <div class="pt-50 pr-80 pr-xs-15 pb-10 pl-80 pl-xs-15">
                   <p class="font-size-18 text-center"></p>
                   
-                    <div class="mb-3 mt-30 mb-20">
+                    <div class="mb-3  mb-20">
                       <label><strong>Property Investments</strong></label>
                       
                     </div>
-                    <div class="mb-30">
+                    <div class="mb-20">
                       <label><strong>IPO Subscriptions</strong></label>
                       <br>
                     </div>
-                    <div class="mb-30">
+                    <div class="mb-20">
                       <label><strong>Training & Develpment</strong></label>
                       <br>
                     </div>
 
-                    <div class="mb-30">
+                    <div class="mb-20">
                       <label><strong>Venture Capital</strong></label>
                       <br>
                     </div>
 
-                    <div class="mb-30">
+                    <div class="mb-20">
                       <label><strong>AR-Rahnu</strong></label>
                       <br>
                     </div>
-                    <div class="mb-30">
+                    <div class="mb-20">
                       <label><strong>Securing Land From State Goverments</strong></label>
                       <br>
                     </div>
