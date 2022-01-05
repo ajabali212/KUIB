@@ -78,7 +78,7 @@
 </div>
 <div id="wrapper" class="clearfix">
   <!-- Header -->
-  <header id="header" class="header header-layout-type-header-1rows-floating-header">
+  <header id="header" class="header header-layout-type-header-1rows-floating-header" style="background-color: #fff;">
     
     <div class="header-nav tm-enable-navbar-hide-on-scroll">
       <div class="header-nav-wrapper navbar-scrolltofixed">

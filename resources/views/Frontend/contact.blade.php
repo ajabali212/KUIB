@@ -1,34 +1,25 @@
 @extends('frontend.layouts.main')
 @section('main-container')
 
-<section id="sectionID_if_Needed" class="divider">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-       <iframe id="iframe" frameborder="0" scrolling="no" src="https://www.google.com/maps/d/embed?mid=1kGw0-BgVSlVWNFfnV3jYA4wjbmxP6U8f&hl=en" height="450" width="100%"></iframe>
-      </div>
-    </div>
-  </div>
-</section>
-<!--     <section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center" data-tm-bg-img="http://placehold.it/1894x826">
+    <section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center pt-200" data-tm-bg-img="{{asset('frontend/images/contact-us2.png')}}" style="background-repeat: no-repeat; background-color:#fff">
       <div class="container pt-200 pb-200">
         <div class="section-content">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2 class="title"><span class="text-theme-colored4">Contact Us</span></h2>
+              <!-- <h2 class="title"><span class="text-theme-colored4">Contact Us</span></h2> -->
               <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
-                <div class="breadcrumbs">
+                <!-- <div class="breadcrumbs">
                   <span><a href="#" rel="home">Home</a></span>
                   <span><i class="fa fa-angle-right"></i></span>
                   <span><a href="#">Contact Us</a></span>
                   
-                </div>
+                </div> -->
               </nav>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
 <!-- Divider: Contact -->
     <section class="divider">

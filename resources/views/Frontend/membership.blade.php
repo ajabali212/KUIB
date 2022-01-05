@@ -1,14 +1,24 @@
 @extends('frontend.layouts.main')
 @section('main-container')
 
-<section id="sectionID_if_Needed" class="divider">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-       <iframe id="iframe" frameborder="0" scrolling="no" src="https://www.google.com/maps/d/embed?mid=1kGw0-BgVSlVWNFfnV3jYA4wjbmxP6U8f&hl=en" height="450" width="100%"></iframe>
+<section class="page-title layer-overlay overlay-dark-3 section-typo-light bg-img-center pt-200" data-tm-bg-img="{{asset('frontend/images/membership-banner.png')}}" style="background-repeat: no-repeat; background-color:#fff; ">
+      <div class="container pt-200 pb-200">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <!-- <h2 class="title"><span class="text-theme-colored4">Contact Us</span></h2> -->
+              <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumbs">
+                <!-- <div class="breadcrumbs">
+                  <span><a href="#" rel="home">Home</a></span>
+                  <span><i class="fa fa-angle-right"></i></span>
+                  <span><a href="#">Contact Us</a></span>
+                  
+                </div> -->
+              </nav>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
 </section>
 
 
@@ -52,7 +62,7 @@
         </div>
           <div class="col-lg-12">
             <h5 class="mt-0 mb-0" style="color:#8e0a0a;">Membership Form 
-              <span class="text-theme-colored4" style="float:right;"><a href="http://kuimb.com/KUIMB-Membership-Form.pdf " target="_blank">Download Form</a></span>
+              <span class="text-theme-colored4" style="float:right;"><a href="http://kuimb.com/KUIMB-Membership-Form.pdf " target="">Download Form</a></span>
             </h5>
             <p class="font-size-20"><!-- Active & Ready to use Contact Form! --></p>
             <!-- Contact Form -->
