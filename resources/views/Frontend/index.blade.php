@@ -5,7 +5,7 @@
     <!-- Section: home Start -->
     <!-- Section: home Start -->
     <section id="home">
-      <div class="container-fluid p-0">
+      <div class="container-fluid">
         <div class="row">
           <div class="col">
             <!-- START Industrivo Rev Slider 2 REVOLUTION SLIDER 6.1.7 -->
@@ -13,8 +13,8 @@
             <rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="industrivo-rev-slider-2" data-source="gallery" style="background:transparent;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
               <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.7">
                 <rs-slides>
-                  <rs-slide data-key="rs-9" data-title="Slide 1" data-thumb="http://placehold.it/1894x826" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
-                    <img src="http://placehold.it/1894x826" title="slide1" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
+                  <rs-slide data-key="rs-9" data-title="Slide 1" data-thumb="1894x826" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
+                    <img src="{{asset('frontend/images/slider1.jpg')}}" title="slide1" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
                     <rs-layer
                       id="slider-4-slide-9-layer-18"
                       data-type="text"
@@ -25,10 +25,10 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2">
-                      <span style="color: #9B0000;">KOPERASI USAHAWAN</span>
+                      <!-- <span style="color: #9B0000;">KOPERASI USAHAWAN</span>
                       <br />
                         <span class="text-theme-colored4 font-weight-700">KUIMB</span>
-                     
+                      -->
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-9-layer-21"
@@ -67,7 +67,7 @@
                     </rs-layer>
                   </rs-slide>
                   <rs-slide data-key="rs-13" data-title="Slide 1" data-thumb="http://placehold.it/1894x945" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
-                    <img src="http://placehold.it/1894x945" title="slide2" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('frontend/images/slider2.jpg')}}" title="slide2" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
                     <rs-layer
                       id="slider-4-slide-13-layer-18"
                       data-type="text"
@@ -78,9 +78,9 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2">
-                      KOPERASI USAHAWAN 
+                      <!-- KOPERASI USAHAWAN 
                       <br />
-                        <span class="text-theme-colored4 font-weight-700">KUIMB</span>
+                        <span class="text-theme-colored4 font-weight-700">KUIMB</span> -->
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-13-layer-21"
@@ -119,7 +119,7 @@
                     </rs-layer>
                   </rs-slide>
                   <rs-slide data-key="rs-15" data-title="Slide 1" data-thumb="http://placehold.it/1894x826" data-anim="ei:d;eo:d;s:d;r:0;t:slotslide-horizontal;sl:d;">
-                    <img src="http://placehold.it/1894x826" title="slide3" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('frontend/images/slider1.jpg')}}" title="slide3" width="1920" height="1280" data-parallax="off" class="rev-slidebg" data-no-retina>
                     <rs-layer
                       id="slider-4-slide-15-layer-18"
                       data-type="text"
@@ -130,8 +130,8 @@
                       data-frame_999="o:0;st:w;sR:7790;"
                       style="z-index:9;"
                       class="font-current-theme2">
-                      Third Slide<br />
-                      Third Slide Text <span class="text-theme-colored4 font-weight-700">KUIMB</span>
+                      <!-- Third Slide<br />
+                      Third Slide Text <span class="text-theme-colored4 font-weight-700">KUIMB</span> -->
                     </rs-layer>
                     <rs-layer
                       id="slider-4-slide-15-layer-21"
@@ -201,10 +201,7 @@
 
    
 
-   
-   
-
-    <!-- Section: Divider -->
+    <!-- Section: Welcome to Start -->
     <section>
       <div class="container">
         <div class="tm-sc-section-title section-title text-center mb-40">
@@ -212,8 +209,8 @@
             <div class="col-sm-12 col-md-8 col-lg-8 col-xl-6 col-xxl-5">
               <div class="title-wrapper mb-1">
                 <h2 class="title mb-0">Welcome To</h2>
-                <h2 class="subtitle line-shape-bottom line-shape-center " style="color:  #003B73;">KOPERASI USAHAWAN INDIA MALAYSIA BERHAD (KUIMB) </h2>
-                
+                <h2 class="subtitle line-shape-bottom line-shape-center" style="color:  #003B73;">
+                KOPERASI USAHAWAN INDIA MALAYSIA BERHAD (KUIMB) </h2>
               </div>
             </div>
           </div>
@@ -225,30 +222,32 @@
                   </blockquote>
         </div>
       </div>
-      <div class="tm-floating-objects">
-        <span class="floating-object-1 tm-animation-spin d-none-1799" data-tm-bg-img="http://placehold.it/161x166" data-tm-width="161" data-tm-height="166" data-tm-top="auto" data-tm-bottom="185" data-tm-left="auto" data-tm-right="215" data-tm-opacity="1"></span>        
-        <span class="floating-object-1 tm-animation-floating z-index--1 d-none d-xl-block" data-tm-bg-img="images/shape/about-01.png" data-tm-width="76" data-tm-height="123" data-tm-top="140" data-tm-bottom="auto" data-tm-left="220" data-tm-right="auto" data-tm-opacity="1"></span>
-        <span class="floating-object-2 tm-animation-random d-none-1799" data-tm-bg-img="images/shape/causes-02.png" data-tm-width="95" data-tm-height="90" data-tm-top="450" data-tm-bottom="auto" data-tm-left="auto" data-tm-right="110" data-tm-opacity="1"></span>
-      </div>
     </section>
-
-    <!-- Section: Causes -->
+    <!-- Section: Welcome To End -->
     
     
     <!-- Section: Divider -->
-    <section class="bg-no-repeat bg-img-cover" data-tm-bg-img="http://placehold.it/1894x324">
+    <section class="bg-no-repeat bg-img-cover" data-tm-bg-color="#fff">
       <div class="section-content">
-        <div class="container pb-90" data-tm-padding-top="177">
+
+        <h4 class="text-center p-0" style="color:  #003B73;">
+               Board Of Directors 
+        </h4>
+        
+        <div class="container pb-90" data-tm-padding-top="10">
           <div class="row">
             <div class="col-sm-12">
-              <div class="tm-sc-clients tm-sc-clients-carousel owl-dots-light-skin owl-dots-center clients-animation-grayscale">
+              <div class="tm-sc-clients tm-sc-clients-carousel owl-dots-light-skin owl-dots-center ">
                 <div class="owl-carousel owl-theme tm-owl-carousel-5col" data-autoplay="true" data-loop="true" data-duration="6000" data-smartspeed="300" data-margin="30" data-stagepadding="0" data-laptop="4">
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/1.png')}}" alt='Image' /> </a></div>
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/2.png')}}" alt='Image' /> </a></div>
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/3.png')}}" alt='Image' /> </a></div>
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/4.png')}}" alt='Image' /> </a></div>
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/5.png')}}" alt='Image' /> </a></div>
-                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/clients/6.png')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/1.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/2.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/3.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/4.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/5.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/6.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/7.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/8.jpg')}}" alt='Image' /> </a></div>
+                  <div class="item"> <a target="_blank" href="#"> <img src="{{asset('Frontend/images/bod/9.jpg')}}" alt='Image' /> </a></div>
                 </div>
               </div>
             </div>
@@ -256,7 +255,6 @@
         </div>
       </div>
     </section>
-
     <!-- Section: Testimonial -->
    
 

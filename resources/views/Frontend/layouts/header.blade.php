@@ -97,11 +97,30 @@
               <div class="col-sm-auto ms-auto pr-0 align-self-center">
                 <nav id="top-primary-nav" class="menuzord theme-color4" data-effect="fade" data-animation="none" data-align="right">
                   <ul id="main-nav" class="menuzord-menu">
-                    <li class="active"><a href="{{route('home.index')}}">Home</a></li>
-                    <li class=""><a href="{{route('about-us.index')}}">About Us</a></li>
-                    <li class=""><a href="{{route('gallery.index')}}">Gallery</a></li>
-                    <li class=""><a href="{{route('membership.index')}}">Membership</a></li>
-                    <li class=""><a href="{{route('contact-us.index')}}">Contact Us</a></li>                    
+                    
+                    <li class="{{ Request::is('home') ? 'active' : '' }}">
+                      <a href="{{route('home.index')}}">Home</a>
+                    </li>
+
+                    <li class="{{ Request::is('about-us') ? 'active' : '' }}">
+                      <a href="{{ route('about-us.index') }}">About Us</a>
+                    </li> 
+
+                    <!-- <li class=""><a href="{{route('about-us.index')}}">About Us</a></li> -->
+
+                    <li class="{{ Request::is('gallery') ? 'active' : '' }}">
+                      <a href="{{route('gallery.index')}}">Gallery</a>
+                    </li>
+
+                    <li class="{{ Request::is('membership') ? 'active' : '' }}">
+                      <a href="{{route('membership.index')}}">Membership</a>
+                    </li>
+
+                    <li class="{{ Request::is('contact-us') ? 'active' : '' }}">
+                      <a href="{{route('contact-us.index')}}">Contact Us</a>
+                    </li>  
+
+                                      
                     
                   </ul>
                 </nav>
